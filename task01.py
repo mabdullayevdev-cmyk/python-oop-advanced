@@ -39,3 +39,24 @@ Car("damas", 5500)
 Car.create_object_from_dict({"name": "lacetti", "price": 6000})
 
 print(Car.get_expensive_car().get_info())
+
+
+# OOP: Inheritance, Polymophism, Abstruction, Encupsulation
+
+
+# method, attr: public, private, protected
+
+
+class BankAccount:
+
+    __a = 0
+
+    def __init__(self, name):
+        self.name
+        self.__balance = 0
+
+        self.__balance
+
+    def __get_balanace(self):
+        pass
+
